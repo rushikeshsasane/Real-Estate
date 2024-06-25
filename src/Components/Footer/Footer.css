@@ -1,0 +1,32 @@
+.f-container{
+    justify-content: space-between;
+    border-top: .5px solid rgba(0,0,0,0.148)
+}
+.f-left{
+    gap: 15px;
+}
+.f-menu{
+    gap: 22px;
+    margin-top: 22px;
+    font-weight: 500;
+}
+
+.name7{
+
+}
+@media (max-width: 768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        justify-content: center;
+    }
+    .name7{
+        justify-content: center;
+        font-size: 21px;
+    }
+}
